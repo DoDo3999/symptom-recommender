@@ -1,4 +1,4 @@
-# Agnos Symptom Recommender
+# Symptom Recommender
 
 ![Python](https://img.shields.io/badge/python-3.11-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-green.svg)
