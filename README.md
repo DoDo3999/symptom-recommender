@@ -74,3 +74,6 @@ Swagger UI: [http://localhost:8000/docs](http://localhost:8000/docs)
 - ปรับ `symptom_text_cols` ใน `config.yaml` เพื่อเลือกว่าจะใช้ `search_term` หรือ `summary`
 - ขยายคำพ้องได้ใน `synonyms.yaml`
 - Metrics baseline: Hit@10 ≈ 0.38, MAP@10 ≈ 0.20
+
+** ข้อมูลผู้ป่วยเป็นความลับ — repo นี้ไม่รวมไฟล์จริง
+โปรดวางไฟล์ของคุณเองที่: data/raw/patients.csv (ตาม schema: gender, age, search_term, summary)
