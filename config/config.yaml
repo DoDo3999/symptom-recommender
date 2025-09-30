@@ -1,0 +1,18 @@
+data_path: data/raw/patients.csv
+min_support: 5
+min_pair_coocc: 3
+topk_recommend: 10
+profile_weight: 0.5
+age_bins:
+  - [0, 12]
+  - [13, 19]
+  - [20, 39]
+  - [40, 59]
+  - [60, 200]
+hints:
+  gender_cols: ["gender", "เพศ"]
+  age_cols: ["age", "อายุ"]
+  symptom_text_cols: ["search_term"]
+  one_hot_prefixes: ["symptom_", "sx_"]
+  delimiter_candidates: [",", ";", "|", "、"]
+synonyms_path: config/synonyms.yaml
